@@ -9,4 +9,4 @@ ATMEGA128과 3상 인버터를 활용하여 BLDC모터를 제어하였습니다.
 
 # bldc 모터 컨트롤러 동작 영상
 
-https://youtu.be/VkXPHy1mOpI
+https://youtu.be/dvKtNP3jzVg
