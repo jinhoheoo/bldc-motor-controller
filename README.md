@@ -26,7 +26,7 @@ https://youtu.be/dvKtNP3jzVg
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/95382019-5430-4f83-a4e9-944e9dd1ef3f)
 
 
--동작원리
+## 동작원리
 
 1. 제품에 전원이 들어온 상태에서 모터가 연결 되면 ATmega128A가 모터의 현재 홀센서 위치를 읽어 검출하여 여기에 맞도록 6개의 MOSFET소자를 구동하기 위한 게이트 드라이브 신호를 출력 합니다.
 
@@ -38,7 +38,7 @@ https://youtu.be/dvKtNP3jzVg
 
 5. 하부 MOSFET에 1Ω의 와트 저항을 사용하여 ATMEGA128D의 ADC로 값을 읽어 800mA 이상의 전류가 측정되면 모터를 정지하여 모터 과부하를 막습니다. 추가적으로 ADC로 값을 입력받을 때 LPF를 달아서 안정적으로 입력 값을 받습니다.
 
--결과
+## 결과
 
 1.션트 저항 1옴으로 인한 전력손실
 
@@ -62,14 +62,14 @@ https://youtu.be/dvKtNP3jzVg
 
 -> BLDC모터의 내부 구조와 원리를 파악한 결과 AC모터와는 달리 전원 주파수의 변화로 인한 속도 제어가 아닌 고정자에 전압이 얼마나 인가 되었는지에 따라 회전속도가 정해진다는 사실을 알게되었습니다. 그리고 PWM 주파수가 모터의 초당 회전수보다 훨씬 커야 모터의 회전자가 반응할 시간이 충분해 안정적으로 회전할 수 있다는 사실과 BLDC는 브러시가 없어 크게 상관없지만, DC 모터의 경우 주파수 상승으로 주기가 짧아져 전류가 상승할 시간이 줄어드는 효과로 전류 리플이 작아진다는 사실을 알게 되었습니다. 이를 통해 PWM 주파수를 20kHz로 인가하여 모터를 동작시켰습니다.
 
--BOM
+## BOM
 
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/20e52d8b-f6db-4445-8a34-d941e57f0a40)
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/53fdf00b-d043-403b-8123-1faca066524b)
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/4482a5a7-2b9d-4ed2-9aaf-3084f5c8c0e9)
 
 
--원가 분석표
+## 원가 분석표
 
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/b01a4771-00f2-4a2f-b5ca-f6743c184cf0)
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/b01b3316-3737-4b24-a552-feb465d05044)
