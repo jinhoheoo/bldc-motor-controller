@@ -32,6 +32,17 @@ https://youtu.be/dvKtNP3jzVg
 
 ![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/95382019-5430-4f83-a4e9-944e9dd1ef3f)
 
+![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/5a4f08f8-8d34-4ce2-bcae-1ac2248a247e)
+
+![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/66425cb1-817b-4ee0-985b-ca72ac4ec531)
+
+![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/29bcbd21-7224-4191-a6e7-582437b80822)
+
+![image](https://github.com/jinhoheoo/bldc-motor-controller/assets/153490852/3832f2d0-5de3-4037-ab2f-32ef55d2bba0)
+
+
+
+
 
 ## 동작원리
 
